@@ -1,4 +1,3 @@
-
 /*
 
 [Main Stylesheet]
@@ -111,7 +110,7 @@ body {
 
 body {
     background: #f9f9f9;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 p:last-child {
@@ -203,11 +202,11 @@ p:last-child {
 }
 
 .bg--img .section--title h2:before {
-    border-color: #fff;
+    border-color: #303030;
 }
 
 .bg--img .section--title h2:after {
-    background-color: #fff;
+    background-color: #303030;
 }
 
 /* 1.3. BACKGROUND IMAGE */
@@ -245,7 +244,7 @@ p:last-child {
     border-radius: 0;
     font-size: 18px;
     line-height: 22px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .btn--default:hover, .btn--primary:hover,
@@ -397,6 +396,8 @@ p:last-child {
     padding: 18px 40px 20px;
     color: #fff;
     background-color: #303030;
+    font-weight: 100;
+    border-bottom: none;
 }
 
 .modal-header .close {
@@ -415,8 +416,8 @@ p:last-child {
 }
 
 .modal-title {
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .modal-title + p {
@@ -671,9 +672,9 @@ body.scrolled .header--navbar {
 
 .banner--content h2 {
     margin-top: 0;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 36px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .banner--content .thick {
@@ -681,7 +682,7 @@ body.scrolled .header--navbar {
 }
 
 .banner--content p {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 300;
 }
@@ -846,7 +847,7 @@ body.scrolled .header--navbar {
 .service--content h2 {
     margin-top: 0;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
 }
 
@@ -942,13 +943,13 @@ body.scrolled .header--navbar {
 
 .gallery-overlay h2 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
 }
 
 .gallery-overlay p {
     font-weight: 300;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 .gallery-overlay .gallery--window {
@@ -1528,7 +1529,7 @@ body.scrolled .header--navbar {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 0;
+    font-size: 0px;
 }
 
 .contact--social li {
@@ -1538,13 +1539,13 @@ body.scrolled .header--navbar {
 
 .contact--social li a {
     display: block;
-    width: 32px;
-    margin: 16px 3px;
+    width: 44px;
+    margin: 0 0 16px 0;
     padding: 4px 0;
-    color: #303030;
-    border: 1px solid #303030;
+    color: #999999;
+    border: none;
     border-radius: 35px;
-    font-size: 16px;
+    font-size: 26px;
     text-align: center;
     -webkit-transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
             transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
@@ -1553,8 +1554,8 @@ body.scrolled .header--navbar {
 .contact--social li a:hover,
 .contact--social li a:focus {
     color: #fff;
-    border: 1px solid #303030;
-    background: #303030;
+    border: none;
+    background: #999999;
 }
 
 /* 11.3. CONTACT SOCIAL */
