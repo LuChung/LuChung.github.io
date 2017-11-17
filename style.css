@@ -111,6 +111,7 @@ body {
 body {
     background: #f9f9f9;
     font-family: 'Lato', sans-serif;
+    letter-spacing: .2px
 }
 
 p:last-child {
@@ -238,11 +239,11 @@ p:last-child {
 /* 1.5. BUTTONS */
 .btn--default, .btn--primary {
     display: inline-block;
-    padding: 16px 30px 15px 29px;
+    padding: 15px 28px 15px 27px;
     color: #fff;
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
     border-radius: 0;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     font-weight: 500;
 }
@@ -669,6 +670,7 @@ body.scrolled .header--navbar {
 .banner--content-left {
     width:40%;
 }
+
 
 .banner--content h2 {
     margin-top: 0;
