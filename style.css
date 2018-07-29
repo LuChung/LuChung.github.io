@@ -116,6 +116,16 @@ body {
     font-size: 1.4em;
 }
 
+.vc--child {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 }
 
@@ -753,6 +763,10 @@ body.scrolled .header--navbar {
 /* 3.3. BANNER CONTENT */
 .banner--content {
     color: #303030;
+}
+
+#banner-slogan {
+    color: #303030;
     margin: 0;
     position: absolute;
     width: 100%;
@@ -760,6 +774,7 @@ body.scrolled .header--navbar {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 
 .banner--content-left {
@@ -1090,6 +1105,7 @@ body.scrolled .header--navbar {
             transform: rotate(-45deg);
     display: block;
 }
+
 
 /* X.X. GALLERY MODAL */
 .gallery--details .modal-body {
