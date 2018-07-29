@@ -462,12 +462,21 @@ p:last-child {
 
 #modal-bg {
     height: 850px;
+    background-position: center; 
+}
+
+
+@media screen and (max-width: 991px) {
+    #modal-bg{
+    height: 650px;
     background-position: center;
+    
+    }
 }
 
 @media screen and (max-width: 767px) {
     #modal-bg{
-    height: 450px;
+    height: 500px;
     background-position: center;
     
     }
