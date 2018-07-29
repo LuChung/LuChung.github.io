@@ -465,6 +465,14 @@ p:last-child {
     background-position: center;
 }
 
+@media screen and (max-width: 767px) {
+    #modal-bg{
+    height: 450px;
+    background-position: center;
+    
+    }
+}
+
 
 .modal-title {
     font-size: 18px;
