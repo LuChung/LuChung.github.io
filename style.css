@@ -465,6 +465,7 @@ p:last-child {
     margin-top:30px;
 }
 
+
 .modal-body h5{
     margin-top: 20px;
     font-weight: 300;
@@ -643,7 +644,7 @@ body.scrolled .header--navbar {
 }
 
 .header--nav .nav li a:hover,
-.header--nav .nav li a:focus,
+
 .header--nav .nav li.active a {
     background: transparent;
 }
@@ -2058,6 +2059,11 @@ body.scrolled #backToTop {
         margin-left: 30px;
         margin-right: 30px;
     }
+@media screen and (max-width: 767px) {
+.modal-body {
+    padding: 50px 0 0 0 !important;
+    margin-top:30px;
+}
     
     /* POST DETAILS */
     .post--details .author-meta {
