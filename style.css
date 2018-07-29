@@ -108,6 +108,15 @@ body {
     height: 100%;
 }
 
+
+#logo--content p{
+    font-size: 11px;
+}
+
+#headerNav{ 
+    font-size: 11px !important;
+}
+
 body {
     background: #f9f9f9;
     font-family: 'Lato', sans-serif;
@@ -129,13 +138,6 @@ body {
 
 }
 
-#headerNav {
-    font-size: 11px;
-}
-
-#logo--content p{
-    font-size: 11px;
-}
 
 .container a{
     text-decoration: none;
