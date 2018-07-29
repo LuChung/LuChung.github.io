@@ -111,11 +111,40 @@ body {
 body {
     background: #f9f9f9;
     font-family: 'Lato', sans-serif;
-    letter-spacing: .2px
+    letter-spacing: .3px;
+    line-height:1.6;
+    font-size: 1.4em;
+}
+
+#headerNav {
+    font-size: 11px;
+}
+
+#logo--content p{
+    font-size: 11px;
+}
+
+.container a{
+    text-decoration: none;
+    color: #333;
 }
 
 p:last-child {
     margin-bottom: 0;
+}
+
+.divider{
+    text-align: center;
+    margin: 45px auto 60px auto;
+}
+
+.dot1, .dot2, .dot3 {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #333;
+    -webkit-border-radius:50%;
+    margin-right: 30px;
 }
 
 .wrapper {
@@ -416,6 +445,12 @@ p:last-child {
     text-shadow: none;
 }
 
+#modal-bg {
+    height: 850px;
+    background-position: center;
+}
+
+
 .modal-title {
     font-size: 18px;
     font-weight: 500;
@@ -426,8 +461,57 @@ p:last-child {
 }
 
 .modal-body {
-    padding: 40px;
-    background-color: #f3f3f3;
+    padding: 80px;
+    margin-top:30px;
+}
+
+.modal-body h5{
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.modal-body h3{
+    margin-bottom:20px;
+}
+
+.modal-body img{
+    padding: 20px 0 20px 0;
+
+}
+
+.modal-body blockquote{
+    font-size: inherit;
+    border-left: 2px solid #ccc;    
+}
+
+
+.cool-link {
+    display: inline-block;
+    color: #333;
+    border-bottom: 1px solid #333;
+    line-height: 1.2em;
+
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #333;
+    transition: width .3s;
+
+}
+
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+#img-s {
+    margin-bottom: 0px
 }
 
 /* 1.9. PRELOADER */
@@ -2076,10 +2160,7 @@ body.scrolled #backToTop {
 }
 
 /* 18.6. ALT HYPERLINk COLOR  */
-.whoiam a {
-    color: #333;
-    text-decoration: underline;
-}
+
 
 /* 18.6. ALT WORK MODAL PADDING  */
 #work-mb{
