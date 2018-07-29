@@ -116,6 +116,9 @@ body {
     font-size: 1.4em;
 }
 
+
+}
+
 #headerNav {
     font-size: 11px;
 }
@@ -522,7 +525,7 @@ p:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #303030;
+    background-color: #b3cae7;
     z-index: 999;
 }
 
@@ -644,7 +647,7 @@ body.scrolled .header--navbar {
 }
 
 .header--nav .nav li a:hover,
-
+.header--nav .nav li a:focus,
 .header--nav .nav li.active a {
     background: transparent;
 }
@@ -750,7 +753,14 @@ body.scrolled .header--navbar {
 /* 3.3. BANNER CONTENT */
 .banner--content {
     color: #303030;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 .banner--content-left {
     width:40%;
