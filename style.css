@@ -465,6 +465,14 @@ p:last-child {
     background-position: center; 
 }
 
+@media screen and (max-width: 1024px) {
+    #modal-bg{
+    height: 750px;
+    background-position: center;
+    
+    }
+}
+
 
 @media screen and (max-width: 991px) {
     #modal-bg{
@@ -476,7 +484,7 @@ p:last-child {
 
 @media screen and (max-width: 767px) {
     #modal-bg{
-    height: 500px;
+    height: 480px;
     background-position: center;
     
     }
