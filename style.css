@@ -139,11 +139,6 @@ body {
 }
 
 
-.container a{
-    text-decoration: none;
-    color: #333;
-}
-
 p:last-child {
     margin-bottom: 0;
 }
@@ -549,6 +544,11 @@ p:last-child {
 .cool-link:hover::after {
     width: 100%;
     //transition: width .3s;
+}
+
+.container a{
+    text-decoration: none;
+    color: #333;
 }
 
 #img-s {
