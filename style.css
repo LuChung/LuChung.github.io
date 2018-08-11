@@ -208,7 +208,6 @@ p:last-child {
 
 .section--title h2 {
     position: relative;
-    display: inline-block;
     margin-top: -7px;
     margin-bottom: 0;
     padding-bottom: 18px;
