@@ -1680,11 +1680,11 @@ body.scrolled .header--navbar {
     display: block;
     width: 44px;
     margin: 0 0 16px 0;
-    padding: 4px 0;
+    padding: 4px;
     color: #999999;
     border: none;
     border-radius: 35px;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     -webkit-transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
             transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
