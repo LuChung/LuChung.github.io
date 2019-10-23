@@ -281,7 +281,7 @@ p:last-child {
     color: #fff;
     border: 1.5px solid transparent;
     border-radius: 0;
-    font-size: 14px;
+    font-size: .75em;
     line-height: 22px;
     font-weight: 500;
 }
