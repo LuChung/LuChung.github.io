@@ -2229,10 +2229,3 @@ body.scrolled #backToTop {
 .navbar-toggle {
     margin-right: 0px;
 }
-
-/* 18.7 ALT SKILLS WIDTH TO 30% */
-@media (min-width: 992px) {
-    .col-md-4 {
-        width: 30%!important;
-    }
-}
