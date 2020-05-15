@@ -465,7 +465,7 @@ p:last-child {
     #modal-bg{
     height: 750px;
     background-position: center;
-    
+
     }
 }
 
@@ -2238,14 +2238,6 @@ body.scrolled #backToTop {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-
-/* GLOBAL STYLES */
-body {
-  background: #333;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
-}
 
 
 
