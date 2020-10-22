@@ -516,6 +516,10 @@ p:last-child {
 
 }
 
+.carousel-inner img{
+    padding: 0;
+}
+
 .modal-body blockquote{
     font-size: inherit;
     border-left: 2px solid #ccc;    
@@ -2232,12 +2236,15 @@ body.scrolled #backToTop {
     margin-right: 0px;
 }
 
-/* 19. SHADOW*/
+/* 19. SHADOW */
 
 .img-shadow img{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 
+/* 20. Carousel */
 
-
+.carousel-indicators li .active{
+background-color: #666 !important;
+}
