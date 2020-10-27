@@ -2244,13 +2244,3 @@ body.scrolled #backToTop {
 
 
 /* 20. Carousel */
-
-#myCarousel li{
-    background-color: rgba(0,0,0,.2);
-    border: initial;
-}
-
-#myCarousel li .active{
-    background-color: rgba(0,0,0,.5);
-    border: initial;
-}
