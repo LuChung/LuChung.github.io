@@ -121,7 +121,7 @@
                         <div class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10 reset-padding post-title">
                         <h4>Hi Victor,</h4>
                             <h4>Here is the instruction on how to use this interactive dictionary, <a class="cool-link" target="_blank" href="https://g.co/kgs/jDpqY6">Lost in Translation</a>.</h4>
-                            <h4>Please click Mandarin contexts to swap and decode their meaning in the English words. I will translate the vocabulary from each paragraph every day from December 16 to 24. Feel free to let me know if you have any questions. Hope you have fun and the learning process. Enjoy!</h4>
+                            <h4>Please click Mandarin contexts to swap and decode their meaning in the English words. I will translate the vocabulary from each paragraph every day between December 16 to 24. Feel free to let me know if you have any questions. Hope you have fun and the learning process. Enjoy!</h4>
 
                             <h5>If you copy & paste the letter to Google Translate, let me know, too. I will pause the work and save my time, haha</h5>
 
@@ -159,9 +159,39 @@
                     </h3>
                         <h5 id="dec17">Dec 17</h5>
                     <h3 style="color: #ccc;">
-                        我們的關係 轉個身是不需要多交代些什麼的，<br>
-                        但感情中我其實不太有灰色地帶，<br>
-                        當接受你的提議時 我已放棄自己。<br>
+                        <a onclick="我們的()" id="我們的">我們的</a>
+                        <a onclick="關係()" id="關係">關係</a>
+                        <a onclick="轉個身()" id="轉個身">轉個身</a>
+                        <a onclick="是()" id="是">是</a>
+                        <a onclick="不()" id="不">不</a>
+                        <a onclick="需要()" id="需要">需要</a>
+                        <a onclick="多()" id="多">多</a>
+                        <a onclick="交代()" id="交代">交代</a>
+                        <a onclick="些什麼的()" id="些什麼的">些什麼的</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="但()" id="但">但</a>
+                        <a onclick="感情()" id="感情">感情</a>
+                        <a onclick="中()" id="中">中</a>
+                        <a onclick="我2()" id="我2">我</a>
+                        <a onclick="其實()" id="其實">其實</a>
+                        <a onclick="不太()" id="不太">不太</a>
+                        <a onclick="有()" id="有">有</a>
+                        <a onclick="灰色()" id="灰色">灰色</a>
+                        <a onclick="地帶()" id="地帶">地帶</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="當()" id="當">當</a>
+                        <a onclick="接受()" id="接受">接受</a>
+                        <a onclick="你的()" id="你的">你的</a>
+                        <a onclick="提議()" id="提議">提議</a>
+                        <a onclick="時()" id="時">時</a>
+                        <a onclick="我()" id="我">我</a>
+                        <a onclick="已()" id="已">已</a>
+                        <a onclick="放棄()" id="放棄">放棄</a>
+                        <a onclick="自己()" id="自己">自己</a>
+                        <span>。</span>
+                        <br>
                     </h3>
 
                         <h5 id="dec18">Dec 18</h5>
@@ -283,7 +313,7 @@
         function 決定將() {
           var x = document.getElementById("決定將");
           if (x.innerHTML === "決定將") {
-            x.innerHTML = "Decide to";
+            x.innerHTML = "decide to";
           } else {
             x.innerHTML = "決定將";
           }
@@ -432,6 +462,250 @@
             x.innerHTML = "距離";
           }
         }
+
+        function 我們的() {
+          var x = document.getElementById("我們的");
+          if (x.innerHTML === "我們的") {
+            x.innerHTML = "our";
+          } else {
+            x.innerHTML = "我們的";
+          }
+        }
+
+        function 關係() {
+          var x = document.getElementById("關係");
+          if (x.innerHTML === "關係") {
+            x.innerHTML = "relationship";
+          } else {
+            x.innerHTML = "關係";
+          }
+        }
+
+        function 轉個身() {
+          var x = document.getElementById("轉個身");
+          if (x.innerHTML === "轉個身") {
+            x.innerHTML = "turn back";
+          } else {
+            x.innerHTML = "轉個身";
+          }
+        }
+
+        function 是() {
+          var x = document.getElementById("是");
+          if (x.innerHTML === "是") {
+            x.innerHTML = "is";
+          } else {
+            x.innerHTML = "是";
+          }
+        }
+
+        function 不() {
+          var x = document.getElementById("不");
+          if (x.innerHTML === "不") {
+            x.innerHTML = "no";
+          } else {
+            x.innerHTML = "不";
+          }
+        }
+
+        function 需要() {
+          var x = document.getElementById("需要");
+          if (x.innerHTML === "需要") {
+            x.innerHTML = "need";
+          } else {
+            x.innerHTML = "需要";
+          }
+        }
+
+        function 多() {
+          var x = document.getElementById("多");
+          if (x.innerHTML === "多") {
+            x.innerHTML = "more";
+          } else {
+            x.innerHTML = "多";
+          }
+        }
+
+        function 交代() {
+          var x = document.getElementById("交代");
+          if (x.innerHTML === "交代") {
+            x.innerHTML = "explain";
+          } else {
+            x.innerHTML = "交代";
+          }
+        }
+
+        function 些什麼的() {
+          var x = document.getElementById("些什麼的");
+          if (x.innerHTML === "些什麼的") {
+            x.innerHTML = "something";
+          } else {
+            x.innerHTML = "些什麼的";
+          }
+        }
+
+        function 但() {
+          var x = document.getElementById("但");
+          if (x.innerHTML === "但") {
+            x.innerHTML = "but";
+          } else {
+            x.innerHTML = "但";
+          }
+        }
+
+        function 感情() {
+          var x = document.getElementById("感情");
+          if (x.innerHTML === "感情") {
+            x.innerHTML = "affection";
+          } else {
+            x.innerHTML = "感情";
+          }
+        }
+
+        function 中() {
+          var x = document.getElementById("中");
+          if (x.innerHTML === "中") {
+            x.innerHTML = "in";
+          } else {
+            x.innerHTML = "中";
+          }
+        }
+
+        function 我() {
+          var x = document.getElementById("我");
+          if (x.innerHTML === "我") {
+            x.innerHTML = "I";
+          } else {
+            x.innerHTML = "我";
+          }
+        }
+
+        function 其實() {
+          var x = document.getElementById("其實");
+          if (x.innerHTML === "其實") {
+            x.innerHTML = "in fact";
+          } else {
+            x.innerHTML = "其實";
+          }
+        }
+
+        function 不太() {
+          var x = document.getElementById("不太");
+          if (x.innerHTML === "不太") {
+            x.innerHTML = "not quite";
+          } else {
+            x.innerHTML = "不太";
+          }
+        }
+
+        function 有() {
+          var x = document.getElementById("有");
+          if (x.innerHTML === "有") {
+            x.innerHTML = "have";
+          } else {
+            x.innerHTML = "有";
+          }
+        }
+
+        function 灰色() {
+          var x = document.getElementById("灰色");
+          if (x.innerHTML === "灰色") {
+            x.innerHTML = "gray";
+          } else {
+            x.innerHTML = "灰色";
+          }
+        }
+
+        function 地帶() {
+          var x = document.getElementById("地帶");
+          if (x.innerHTML === "地帶") {
+            x.innerHTML = "area";
+          } else {
+            x.innerHTML = "地帶";
+          }
+        }
+        
+        function 當() {
+          var x = document.getElementById("當");
+          if (x.innerHTML === "當") {
+            x.innerHTML = "when";
+          } else {
+            x.innerHTML = "當";
+          }
+        }
+
+        function 接受() {
+          var x = document.getElementById("接受");
+          if (x.innerHTML === "接受") {
+            x.innerHTML = "accept";
+          } else {
+            x.innerHTML = "接受";
+          }
+        }
+
+        function 你的() {
+          var x = document.getElementById("你的");
+          if (x.innerHTML === "你的") {
+            x.innerHTML = "your";
+          } else {
+            x.innerHTML = "你的";
+          }
+        }
+
+        function 提議() {
+          var x = document.getElementById("提議");
+          if (x.innerHTML === "提議") {
+            x.innerHTML = "proposal (more than friend)";
+          } else {
+            x.innerHTML = "你的";
+          }
+        }
+
+        function 時() {
+          var x = document.getElementById("時");
+          if (x.innerHTML === "時") {
+            x.innerHTML = "the time";
+          } else {
+            x.innerHTML = "時";
+          }
+        }
+
+        function 我2() {
+          var x = document.getElementById("我2");
+          if (x.innerHTML === "我") {
+            x.innerHTML = "I";
+          } else {
+            x.innerHTML = "我";
+          }
+        }
+
+        function 已() {
+          var x = document.getElementById("已");
+          if (x.innerHTML === "已") {
+            x.innerHTML = "already";
+          } else {
+            x.innerHTML = "已";
+          }
+        }
+
+        function 放棄() {
+          var x = document.getElementById("放棄");
+          if (x.innerHTML === "放棄") {
+            x.innerHTML = "cede";
+          } else {
+            x.innerHTML = "放棄";
+          }
+        }
+
+        function 自己() {
+          var x = document.getElementById("自己");
+          if (x.innerHTML === "自己") {
+            x.innerHTML = "myself (all my pride)";
+          } else {
+            x.innerHTML = "自己";
+          }
+        }
+
     </script>
 
 
