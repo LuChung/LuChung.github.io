@@ -195,10 +195,43 @@
                     </h3>
 
                         <h5 id="dec18">Dec 18</h5>
-                    <h3 style="color: #ccc;">
-                        至少在我決定結束時，可以不用再忽略內心的聲音，<br>
-                        想好好告訴你，我努力過，嘗試過，<br>
-                        為你放下矜持，也曾期待，用心思考你需要的，你喜歡的種種。<br>
+                    <h3>
+                        <a onclick="至少()" id="至少">至少</a>
+                        <a onclick="在我()" id="在我">在我</a>
+                        <a onclick="決定()" id="決定">決定</a>
+                        <a onclick="結束時()" id="結束時">結束時</a>
+                        <span>，</span>
+                        <a onclick="可以()" id="可以">可以</a>
+                        <a onclick="不用()" id="不用">不用</a>
+                        <a onclick="再()" id="再">再</a>
+                        <a onclick="忽略()" id="忽略">忽略</a>
+                        <a onclick="內心的()" id="內心的">內心的</a>
+                        <a onclick="聲音()" id="聲音">聲音</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="想()" id="想">想</a>
+                        <a onclick="好好()" id="好好">好好</a>
+                        <a onclick="告訴你()" id="告訴你">告訴你</a>
+                        <span>，</span>
+                        <a onclick="我努力過()" id="我努力過">我努力過</a>
+                        <span>，</span>
+                        <a onclick="嘗試過()" id="嘗試過">嘗試過</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="為你()" id="為你">為你</a>
+                        <a onclick="放下()" id="放下">放下</a>
+                        <a onclick="矜持()" id="矜持">矜持</a>
+                        <span>，</span>
+                        <a onclick="也()" id="也">也</a>
+                        <a onclick="曾期待()" id="曾期待">曾期待</a>
+                        <span>，</span>
+                        <a onclick="用心()" id="用心">用心</a>
+                        <a onclick="思考()" id="思考">思考</a>
+                        <a onclick="你需要的()" id="你需要的">你需要的</a>
+                        <span>，</span>
+                        <a onclick="你喜歡的()" id="你喜歡的">你喜歡的</a>
+                        <a onclick="種種()" id="種種">種種</a>
+                        <span>。</span>
                     </h3>
 
                         <h5 id="dec19">Dec 19</h5>
@@ -706,7 +739,233 @@
           }
         }
 
+        function 至少() {
+          var x = document.getElementById("至少");
+          if (x.innerHTML === "至少") {
+            x.innerHTML = "at least";
+          } else {
+            x.innerHTML = "至少";
+          }
+        }
+
+        function 在我() {
+          var x = document.getElementById("在我");
+          if (x.innerHTML === "在我") {
+            x.innerHTML = "when I";
+          } else {
+            x.innerHTML = "在我";
+          }
+        }
+
+        function 決定() {
+          var x = document.getElementById("決定");
+          if (x.innerHTML === "決定") {
+            x.innerHTML = "decide";
+          } else {
+            x.innerHTML = "決定";
+          }
+        }
+
+        function 結束時() {
+          var x = document.getElementById("結束時");
+          if (x.innerHTML === "結束時") {
+            x.innerHTML = "the end";
+          } else {
+            x.innerHTML = "結束時";
+          }
+        }
+
+        function 可以() {
+          var x = document.getElementById("可以");
+          if (x.innerHTML === "可以") {
+            x.innerHTML = "can";
+          } else {
+            x.innerHTML = "可以";
+          }
+        }
+
+        function 不用() {
+          var x = document.getElementById("不用");
+          if (x.innerHTML === "不用") {
+            x.innerHTML = "do not need";
+          } else {
+            x.innerHTML = "不用";
+          }
+        }
+
+        function 再() {
+          var x = document.getElementById("再");
+          if (x.innerHTML === "再") {
+            x.innerHTML = "again";
+          } else {
+            x.innerHTML = "再";
+          }
+        }
+
+        function 忽略() {
+          var x = document.getElementById("忽略");
+          if (x.innerHTML === "忽略") {
+            x.innerHTML = "ignore";
+          } else {
+            x.innerHTML = "忽略";
+          }
+        }
+
+        function 內心的() {
+          var x = document.getElementById("內心的");
+          if (x.innerHTML === "內心的") {
+            x.innerHTML = "inside my heart";
+          } else {
+            x.innerHTML = "內心的";
+          }
+        }
+
+        function 聲音() {
+          var x = document.getElementById("聲音");
+          if (x.innerHTML === "聲音") {
+            x.innerHTML = "voice";
+          } else {
+            x.innerHTML = "聲音";
+          }
+        }
+
+        function 想() {
+          var x = document.getElementById("想");
+          if (x.innerHTML === "想") {
+            x.innerHTML = "want to";
+          } else {
+            x.innerHTML = "想";
+          }
+        }
+
+        function 好好() {
+          var x = document.getElementById("好好");
+          if (x.innerHTML === "好好") {
+            x.innerHTML = "sincerely";
+          } else {
+            x.innerHTML = "好好";
+          }
+        }
+
+        function 告訴你() {
+          var x = document.getElementById("告訴你");
+          if (x.innerHTML === "告訴你") {
+            x.innerHTML = "tell you";
+          } else {
+            x.innerHTML = "告訴你";
+          }
+        }
+
+        function 我努力過() {
+          var x = document.getElementById("我努力過");
+          if (x.innerHTML === "我努力過") {
+            x.innerHTML = "I did make an effort";
+          } else {
+            x.innerHTML = "我努力過";
+          }
+        }
+
+        function 嘗試過() {
+          var x = document.getElementById("嘗試過");
+          if (x.innerHTML === "嘗試過") {
+            x.innerHTML = "did try";
+          } else {
+            x.innerHTML = "嘗試過";
+          }
+        }
+
+        function 為你() {
+          var x = document.getElementById("為你");
+          if (x.innerHTML === "為你") {
+            x.innerHTML = "for you";
+          } else {
+            x.innerHTML = "為你";
+          }
+        }
+
+        function 放下() {
+          var x = document.getElementById("放下");
+          if (x.innerHTML === "放下") {
+            x.innerHTML = "cede";
+          } else {
+            x.innerHTML = "放下";
+          }
+        }
+
+        function 矜持() {
+          var x = document.getElementById("矜持");
+          if (x.innerHTML === "矜持") {
+            x.innerHTML = "my rule";
+          } else {
+            x.innerHTML = "矜持";
+          }
+        }
+
+        function 也() {
+          var x = document.getElementById("也");
+          if (x.innerHTML === "也") {
+            x.innerHTML = "also";
+          } else {
+            x.innerHTML = "也";
+          }
+        }
+
+        function 曾期待() {
+          var x = document.getElementById("曾期待");
+          if (x.innerHTML === "曾期待") {
+            x.innerHTML = "had expected";
+          } else {
+            x.innerHTML = "曾期待";
+          }
+        }
+
+        function 用心() {
+          var x = document.getElementById("用心");
+          if (x.innerHTML === "用心") {
+            x.innerHTML = "try my best";
+          } else {
+            x.innerHTML = "用心";
+          }
+        }
+
+        function 思考() {
+          var x = document.getElementById("思考");
+          if (x.innerHTML === "思考") {
+            x.innerHTML = "think";
+          } else {
+            x.innerHTML = "思考";
+          }
+        }
+
+        function 你需要的() {
+          var x = document.getElementById("你需要的");
+          if (x.innerHTML === "你需要的") {
+            x.innerHTML = "what you need";
+          } else {
+            x.innerHTML = "你需要的";
+          }
+        }
+
+        function 你喜歡的() {
+          var x = document.getElementById("你喜歡的");
+          if (x.innerHTML === "你喜歡的") {
+            x.innerHTML = "what you like";
+          } else {
+            x.innerHTML = "你喜歡的";
+          }
+        }
+
+        function 種種() {
+          var x = document.getElementById("種種");
+          if (x.innerHTML === "種種") {
+            x.innerHTML = "...etc";
+          } else {
+            x.innerHTML = "種種";
+          }
+        }
+
     </script>
+    
 
 
     <script src="js/jquery.min.js"></script>
