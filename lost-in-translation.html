@@ -334,17 +334,63 @@
                     </h3>
 
                         <h5 id="dec22">Dec 22</h5>
-                    <h3 style="color: #ccc;">
-                        我孤身來到這個城市，也想念我熟悉的文化，<br>
-                        要冒什麼風險，克服多少不對等的關係，也都是自己的決定，<br>
+                    <h3>
+                        <a onclick="我孤身()" id="我孤身">我孤身</a>
+                        <a onclick="來到()" id="來到">來到</a>
+                        <a onclick="這個城市()" id="這個城市">這個城市</a>
+                        <span>。</span>
+                        <a onclick="也想念()" id="也想念">也想念</a>
+                        <a onclick="我熟悉的文化()" id="我熟悉的文化">我熟悉的文化</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="要冒什麼風險()" id="要冒什麼風險">要冒什麼風險</a>
+                        <span>，</span>
+                        <a onclick="克服()" id="克服">克服</a>
+                        <a onclick="多少()" id="多少">多少</a>
+                        <a onclick="不對等的關係()" id="不對等的關係">不對等的關係</a>
+                        <span>，</span>
+                        <a onclick="也都是自己的決定()" id="也都是自己的決定">也都是自己的決定</a>
+                        <span>，</span>
+                        <br>
                     </h3>
 
                         <h5 id="dec23">Dec 23</h5>
-                    <h3 style="color: #ccc;">
-                        選擇寫中文的信給你，除了是最能詮釋我思想的母語，<br>
-                        也是因為讀懂其中的涵義需要時間與努力，就像維繫感情，<br>
-                        如果你真的有下功夫去理解我，密密麻麻符號才會存在著意義，<br>
-                        不然我說著什麼語言，都無法改變失去共鳴的事實。<br>
+                    <h3>
+                        <a onclick="選擇寫中文的信給你()" id="選擇寫中文的信給你">選擇寫中文的信給你</a>
+                        <span>，</span>
+                        <a onclick="除了()" id="除了">除了</a>
+                        <a onclick="是最能詮釋()" id="是最能詮釋">是最能詮釋</a>
+                        <a onclick="我思想的母語()" id="我思想的母語">是最能詮釋母語</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="也是()" id="也是">也是</a>
+                        <a onclick="因為()" id="因為">因為</a>
+                        <a onclick="讀懂()" id="讀懂">讀懂</a>
+                        <a onclick="其中的涵義()" id="其中的涵義">其中的涵義</a>
+                        <a onclick="需要時間與努力()" id="需要時間與努力">需要時間與努力</a>
+                        <span>，</span>
+                        <a onclick="就像()" id="就像">就像</a>
+                        <a onclick="維繫感情()" id="維繫感情">維繫感情</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="如果你真的()" id="如果你真的">如果你真的</a>
+                        <a onclick="有下功夫去()" id="有下功夫去">有下功夫去</a>
+                        <a onclick="理解我()" id="理解我">理解我</a>
+                        <span>，</span>
+                        <a onclick="密密麻麻的()" id="密密麻麻的">密密麻麻的</a>
+                        <a onclick="符號()" id="符號">符號</a>
+                        <a onclick="才會存在著()" id="才會存在著">才會存在著</a>
+                        <a onclick="意義()" id="意義">意義</a>
+                        <span>，</span>
+                        <br>
+                        <a onclick="不然()" id="不然">不然</a>
+                        <a onclick="我說著什麼語言()" id="我說著什麼語言">我說著什麼語言</a>
+                        <span>，</span>
+                        <a onclick="都無法改變()" id="都無法改變">都無法改變</a>
+                        <a onclick="失去()" id="失去">失去</a>
+                        <a onclick="共鳴的事實()" id="共鳴的事實">共鳴的事實</a>
+                        <span>。</span>
+                        <br>
                     </h3>
 
                 <div class="divider">
@@ -354,8 +400,13 @@
                 </div>                         
 
                         <h5 id="dec24">Dec 24</h5>
-                    <h3 style="color: #ccc;">
-                        最後，簡單的祝福：
+                    <h3>
+                        <a onclick="最後()" id="最後">最後</a>
+                        <span>，</span>
+                        <a onclick="簡單的()" id="簡單的">簡單的</a>
+                        <a onclick="祝福()" id="祝福">祝福</a>
+                        <span>：</span>
+                
                     </h3>
 
                         <h5 id="dec25">Dec 25</h5>
@@ -1515,6 +1566,339 @@
             x.innerHTML = "it makes me feel very struggled";
           } else {
             x.innerHTML = "讓我非常煎熬";
+          }
+        }
+
+        function 我孤身() {
+          var x = document.getElementById("我孤身");
+          if (x.innerHTML === "我孤身") {
+            x.innerHTML = "I am alone";
+          } else {
+            x.innerHTML = "我孤身";
+          }
+        }
+
+        function 來到() {
+          var x = document.getElementById("來到");
+          if (x.innerHTML === "來到") {
+            x.innerHTML = "come to";
+          } else {
+            x.innerHTML = "來到";
+          }
+        }
+
+        function 這個城市() {
+          var x = document.getElementById("這個城市");
+          if (x.innerHTML === "這個城市") {
+            x.innerHTML = "this city";
+          } else {
+            x.innerHTML = "這個城市";
+          }
+        }
+
+        function 也想念() {
+          var x = document.getElementById("也想念");
+          if (x.innerHTML === "也想念") {
+            x.innerHTML = "also miss";
+          } else {
+            x.innerHTML = "也想念";
+          }
+        }
+
+        function 我熟悉的文化() {
+          var x = document.getElementById("我熟悉的文化");
+          if (x.innerHTML === "我熟悉的文化") {
+            x.innerHTML = "the culture I familiar with";
+          } else {
+            x.innerHTML = "我熟悉的文化";
+          }
+        }
+
+        function 要冒什麼風險() {
+          var x = document.getElementById("要冒什麼風險");
+          if (x.innerHTML === "要冒什麼風險") {
+            x.innerHTML = "what risk to take";
+          } else {
+            x.innerHTML = "要冒什麼風險";
+          }
+        }
+
+        function 克服() {
+          var x = document.getElementById("克服");
+          if (x.innerHTML === "克服") {
+            x.innerHTML = "overcome";
+          } else {
+            x.innerHTML = "克服";
+          }
+        }
+
+        function 多少() {
+          var x = document.getElementById("多少");
+          if (x.innerHTML === "多少") {
+            x.innerHTML = "how many";
+          } else {
+            x.innerHTML = "多少";
+          }
+        }
+
+        function 不對等的關係() {
+          var x = document.getElementById("不對等的關係");
+          if (x.innerHTML === "不對等的關係") {
+            x.innerHTML = "unequal relationship";
+          } else {
+            x.innerHTML = "不對等的關係";
+          }
+        }
+
+        function 也都是自己的決定() {
+          var x = document.getElementById("也都是自己的決定");
+          if (x.innerHTML === "也都是自己的決定") {
+            x.innerHTML = "it's all my own decision";
+          } else {
+            x.innerHTML = "也都是自己的決定";
+          }
+        }
+
+        function 選擇寫中文的信() {
+          var x = document.getElementById("選擇寫中文的信");
+          if (x.innerHTML === "選擇寫中文的信") {
+            x.innerHTML = "decide to write letters in Mandarin";
+          } else {
+            x.innerHTML = "選擇寫中文的信";
+          }
+        }
+
+        function 選擇寫中文的信給你() {
+          var x = document.getElementById("選擇寫中文的信給你");
+          if (x.innerHTML === "選擇寫中文的信給你") {
+            x.innerHTML = "decide to write letters in Mandarin for you";
+          } else {
+            x.innerHTML = "選擇寫中文的信給你";
+          }
+        }
+
+        function 除了() {
+          var x = document.getElementById("除了");
+          if (x.innerHTML === "除了") {
+            x.innerHTML = "besides";
+          } else {
+            x.innerHTML = "除了";
+          }
+        }
+
+        function 是最能詮釋() {
+          var x = document.getElementById("是最能詮釋");
+          if (x.innerHTML === "是最能詮釋") {
+            x.innerHTML = "it's the best interpretation";
+          } else {
+            x.innerHTML = "是最能詮釋";
+          }
+        }
+
+        function 我思想的母語() {
+          var x = document.getElementById("我思想的母語");
+          if (x.innerHTML === "我思想的母語") {
+            x.innerHTML = "the thoughts with my mother tongue";
+          } else {
+            x.innerHTML = "我思想的母語";
+          }
+        }
+
+        function 也是() {
+          var x = document.getElementById("也是");
+          if (x.innerHTML === "也是") {
+            x.innerHTML = "also";
+          } else {
+            x.innerHTML = "也是";
+          }
+        }
+
+        function 因為() {
+          var x = document.getElementById("因為");
+          if (x.innerHTML === "因為") {
+            x.innerHTML = "because";
+          } else {
+            x.innerHTML = "因為";
+          }
+        }
+
+        function 讀懂() {
+          var x = document.getElementById("讀懂");
+          if (x.innerHTML === "讀懂") {
+            x.innerHTML = "read and understand";
+          } else {
+            x.innerHTML = "讀懂";
+          }
+        }
+
+        function 其中的涵義() {
+          var x = document.getElementById("其中的涵義");
+          if (x.innerHTML === "其中的涵義") {
+            x.innerHTML = "the meaning";
+          } else {
+            x.innerHTML = "其中的涵義";
+          }
+        }
+
+        function 需要時間與努力() {
+          var x = document.getElementById("需要時間與努力");
+          if (x.innerHTML === "需要時間與努力") {
+            x.innerHTML = "need time and effort";
+          } else {
+            x.innerHTML = "需要時間與努力";
+          }
+        }
+
+        function 就像() {
+          var x = document.getElementById("就像");
+          if (x.innerHTML === "就像") {
+            x.innerHTML = "just like";
+          } else {
+            x.innerHTML = "就像";
+          }
+        }
+
+        function 維繫感情() {
+          var x = document.getElementById("維繫感情");
+          if (x.innerHTML === "維繫感情") {
+            x.innerHTML = "keep feeling";
+          } else {
+            x.innerHTML = "維繫感情";
+          }
+        }
+
+        function 如果你真的() {
+          var x = document.getElementById("如果你真的");
+          if (x.innerHTML === "如果你真的") {
+            x.innerHTML = "if you really";
+          } else {
+            x.innerHTML = "如果你真的";
+          }
+        }
+
+        function 有下功夫去() {
+          var x = document.getElementById("有下功夫去");
+          if (x.innerHTML === "有下功夫去") {
+            x.innerHTML = "have to work hard to";
+          } else {
+            x.innerHTML = "有下功夫去";
+          }
+        }
+
+        function 理解我() {
+          var x = document.getElementById("理解我");
+          if (x.innerHTML === "理解我") {
+            x.innerHTML = "understand me";
+          } else {
+            x.innerHTML = "理解我";
+          }
+        }
+
+        function 密密麻麻的() {
+          var x = document.getElementById("密密麻麻的");
+          if (x.innerHTML === "密密麻麻的") {
+            x.innerHTML = "a mass of";
+          } else {
+            x.innerHTML = "密密麻麻的";
+          }
+        }
+
+        function 符號() {
+          var x = document.getElementById("符號");
+          if (x.innerHTML === "符號") {
+            x.innerHTML = "symbol";
+          } else {
+            x.innerHTML = "符號";
+          }
+        }
+
+        function 才會存在著() {
+          var x = document.getElementById("才會存在著");
+          if (x.innerHTML === "才會存在著") {
+            x.innerHTML = "will exist";
+          } else {
+            x.innerHTML = "才會存在著";
+          }
+        }
+
+        function 意義() {
+          var x = document.getElementById("意義");
+          if (x.innerHTML === "意義") {
+            x.innerHTML = "meaning";
+          } else {
+            x.innerHTML = "意義";
+          }
+        }
+
+        function 不然() {
+          var x = document.getElementById("不然");
+          if (x.innerHTML === "不然") {
+            x.innerHTML = "otherwise";
+          } else {
+            x.innerHTML = "不然";
+          }
+        }
+
+        function 我說著什麼語言() {
+          var x = document.getElementById("我說著什麼語言");
+          if (x.innerHTML === "我說著什麼語言") {
+            x.innerHTML = "what language I am speaking";
+          } else {
+            x.innerHTML = "我說著什麼語言";
+          }
+        }
+
+        function 都無法改變() {
+          var x = document.getElementById("都無法改變");
+          if (x.innerHTML === "都無法改變") {
+            x.innerHTML = "cannot change";
+          } else {
+            x.innerHTML = "都無法改變";
+          }
+        }
+
+        function 失去() {
+          var x = document.getElementById("失去");
+          if (x.innerHTML === "失去") {
+            x.innerHTML = "lose";
+          } else {
+            x.innerHTML = "失去";
+          }
+        }
+
+        function 共鳴的事實() {
+          var x = document.getElementById("共鳴的事實");
+          if (x.innerHTML === "共鳴的事實") {
+            x.innerHTML = "the fact we lost the emotional intimacy";
+          } else {
+            x.innerHTML = "共鳴的事實";
+          }
+        }
+
+        function 最後() {
+          var x = document.getElementById("最後");
+          if (x.innerHTML === "最後") {
+            x.innerHTML = "finally";
+          } else {
+            x.innerHTML = "最後";
+          }
+        }
+
+        function 簡單的() {
+          var x = document.getElementById("簡單的");
+          if (x.innerHTML === "簡單的") {
+            x.innerHTML = "simple";
+          } else {
+            x.innerHTML = "簡單的";
+          }
+        }
+
+        function 祝福() {
+          var x = document.getElementById("祝福");
+          if (x.innerHTML === "祝福") {
+            x.innerHTML = "blessing";
+          } else {
+            x.innerHTML = "祝福";
           }
         }
 
