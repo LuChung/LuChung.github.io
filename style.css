@@ -553,7 +553,7 @@ p:last-child {
 
 .container a{
     text-decoration: none;
-    color: #333;
+    color: #303030;
 }
 
 #img-s {
@@ -798,11 +798,11 @@ body.scrolled .header--navbar {
 }
 
 #banner-slogan {
-    color: #303030;
+    color: #f4f4f4;
     margin: 0;
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 650%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -816,7 +816,7 @@ body.scrolled .header--navbar {
 
 .banner--content h2 {
     margin-top: 0;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     text-transform: none;
 }
