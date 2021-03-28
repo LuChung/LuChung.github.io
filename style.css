@@ -163,6 +163,35 @@ p:last-child {
     height: 100%;
 }
 
+/* 1.0. HEADER NAV */
+
+.side{
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    z-index: 1;
+}
+.side ul{
+    list-style-type:none;
+    font-size: 0.8em;
+    color: #2C90FE;
+}
+
+.side a{
+    float: left;
+    display: block;
+    color: #2C90FE;
+    text-align: center;
+    margin: .3em 0;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.side a:hover{
+    border-bottom: 1px solid #2C90FE;
+}
+
 /* 1.1. LOGO */
 .logo {
     display: inline-block;
@@ -2244,3 +2273,5 @@ body.scrolled #backToTop {
 
 
 /* 20. Carousel */
+
+/* 21. Bookmark */
