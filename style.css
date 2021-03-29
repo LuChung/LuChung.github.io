@@ -17,6 +17,7 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
 [TABLE OF CONTENTS]
 
 1. GENERAL STYLES
+    1.0. SIDE NAV
     1.1. LOGO
     1.2. SECTION TITLE
     1.3. BACKGROUND IMAGE
@@ -105,6 +106,9 @@ X. SUBSCRIBE AREA
 /*------------------------------------*\
     1. GENERAL STYLES
 \*------------------------------------*/
+
+
+
 html,
 body {
     height: 100%;
@@ -138,8 +142,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-}
-
 
 p:last-child {
     margin-bottom: 0;
@@ -163,32 +165,34 @@ p:last-child {
     height: 100%;
 }
 
-/* 1.0. HEADER NAV */
+/* 1.0. SIDE NAV */
 
 .side{
     position: fixed;
-    left: 0px;
-    top: 50%;
+    right: 35px;
+    bottom: 90px;
     z-index: 1;
 }
 .side ul{
     list-style-type:none;
     font-size: 0.8em;
-    color: #2C90FE;
+    color: #8D959C;
 }
 
 .side a{
-    float: left;
+    float: right;
     display: block;
-    color: #2C90FE;
+    color: #8D959C;
     text-align: center;
     margin: .3em 0;
     text-decoration: none;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .side a:hover{
+    color: #2C90FE;
+    font-weight: 400;
     border-bottom: 1px solid #2C90FE;
 }
 
@@ -490,6 +494,8 @@ p:last-child {
     background-position: center; 
 }
 
+
+
 @media screen and (max-width: 1024px) {
     #modal-bg{
     height: 750px;
@@ -596,7 +602,7 @@ p:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #b3cae7;
+    background-color: #69a4c4;
     z-index: 999;
 }
 
@@ -1852,6 +1858,7 @@ body.scrolled .header--navbar {
     z-index: 1;
 }
 
+
 body.scrolled #backToTop {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1860,12 +1867,20 @@ body.scrolled #backToTop {
 #backToTop a {
     min-width: 50px;
     padding: 6px 0 8px;
+    color: #A8ADB1;
+    border-color: #A8ADB1;
     background-color: #f9f9f9;
     font-size: 32px;
     line-height: 0;
     text-align: center;
+    border-radius: 50%;
 }
 
+#backToTop a:hover{
+    color: #2C90FE;
+    border-color: #2C90FE;
+
+}
 /*------------------------------------*\
     15. HIRE ME CONTACT MODAL
 \*------------------------------------*/
@@ -2039,6 +2054,14 @@ body.scrolled #backToTop {
     17. MEDIA QUERIES
 \*------------------------------------*/
 /* 17.1. DESKTOP */
+
+@media (min-width: 1200px){
+    .container {
+    width: 1270px;
+
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .gallery-overlay h2 {
         margin: 0;
@@ -2272,6 +2295,3 @@ body.scrolled #backToTop {
 }
 
 
-/* 20. Carousel */
-
-/* 21. Bookmark */
