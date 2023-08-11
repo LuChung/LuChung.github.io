@@ -2170,11 +2170,22 @@ body.scrolled #backToTop {
         margin-left: 30px;
         margin-right: 30px;
     }
+    
+    /* BG image */
+    .bg--img {
+        background-size: 180%;
+    }
+
 @media screen and (max-width: 767px) {
 .modal-body {
     padding: 50px 0 0 0 !important;
     margin-top:30px;
 }
+
+    /* BG image */
+    .bg--img {
+        background-size: 180%;
+    }
     
     /* POST DETAILS */
     .post--details .author-meta {
@@ -2213,7 +2224,7 @@ body.scrolled #backToTop {
     .header--custom-btn {
         margin-left: 0;
     }
-    
+
     /* ABOUT AREA */
     .about--info-item h5 {
         word-wrap: break-word;
@@ -2223,7 +2234,12 @@ body.scrolled #backToTop {
     .subscribe--form .input-box {
         width: 100%;
     }
-}
+
+    /* BG image */
+    .bg--img {
+        background-size: 240%;
+    }
+
 
 /*------------------------------------*\
     18. HELPER CLASSES
