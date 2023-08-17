@@ -2171,10 +2171,7 @@ body.scrolled #backToTop {
         margin-right: 30px;
     }
     
-    /* BG image */
-    .bg--img {
-        background-size: 180%;
-    }
+
 
 @media screen and (max-width: 767px) {
 .modal-body {
@@ -2182,10 +2179,7 @@ body.scrolled #backToTop {
     margin-top:30px;
 }
 
-    /* BG image */
-    .bg--img {
-        background-size: 180%;
-    }
+
     
     /* POST DETAILS */
     .post--details .author-meta {
@@ -2235,10 +2229,7 @@ body.scrolled #backToTop {
         width: 100%;
     }
 
-    /* BG image */
-    .bg--img {
-        background-size: 240%;
-    }
+
 
 
 /*------------------------------------*\
