@@ -590,6 +590,7 @@ p:last-child {
 .container a{
     text-decoration: none;
     color: #303030;
+
 }
 
 #img-s {
@@ -696,6 +697,8 @@ body.scrolled .header--navbar {
 .header--navbar .navbar-toggle {
     border-color: none;
     border-radius: 0;
+    margin-left: 0;
+    margin-right:0;
 }
 
 .header--navbar .navbar-toggle .icon-bar {
