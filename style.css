@@ -1034,6 +1034,16 @@ body.scrolled .header--navbar {
     line-height: 28px;
 }
 
+@media screen and (max-width: 768px) {
+  #services {
+    z-index: 10 !important; /* Ensure higher priority */
+    background-image: url('img/services-img/bg.jpg'); /* Mobile-specific image (if needed) */
+    background-size: cover;
+    background-position: center center;
+    height: auto; /* Adjust height for mobile */
+  }
+}
+
 /*------------------------------------*\
     6. GALLERY AREA
 \*------------------------------------*/
