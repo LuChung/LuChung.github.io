@@ -878,7 +878,7 @@ body.scrolled .header--nav .nav li a:before {
     margin: 0;
     position: absolute;
     width: 100%;
-    top: 850%;
+    top: 750%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
