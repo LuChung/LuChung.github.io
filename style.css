@@ -118,11 +118,21 @@ body {
 
 #logo--content p{
     font-size: 11px;
+    font-weight: 400;
 }
 
 #headerNav{ 
     font-size: 11px !important;
 }
+
+#headerNav a{ 
+    color: #fff;
+}
+
+body.scrolled #headerNav a {
+    color: #303030;
+}
+
 
 body {
     background: #f9f9f9;
@@ -229,11 +239,14 @@ p:last-child {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
 }
 
 .logo--content p {
     font-size: 14px;
     line-height: 18px;
+    color: #fff;
 }
 
 /* 1.2. SECTION TITLE */
@@ -316,19 +329,12 @@ p:last-child {
     padding: 15px 28px 15px 27px;
     color: #fff;
     border: 1.5px solid transparent;
-    border-radius: 0;
+    border-radius: 2px;
     font-size: .75em;
     line-height: 22px;
     font-weight: 500;
 }
 
-.btn--default:hover, .btn--primary:hover,
-.btn--default:focus, .btn--primary:focus {
-    color: #fff;
-    box-shadow: none;
-    text-decoration: none;
-    outline: 0;
-}
 
 .btn--default {
     color: #303030;
@@ -338,12 +344,26 @@ p:last-child {
 
 .btn--default:hover,
 .btn--default:focus {
-    color: #303030;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
 }
 
 .btn--primary {
     border-color: #303030;
     background-color: #303030;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    border-color: #000;
+    background-color: #000;
+}
+
+
+#btn_link:hover {
+    background-color: #0077B5;
+    border-color: #0077B5;
 }
 
 /* 1.6. DATEPICKER */
@@ -682,6 +702,14 @@ body.scrolled .header--navbar {
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
 }
 
+body.scrolled .logo--content h1 {
+    color: #303030;
+}
+
+body.scrolled .logo--content p {
+    color: #303030;
+}
+
 .header--navbar .navbar {
     min-height: 0;
     margin-bottom: 0;
@@ -702,6 +730,10 @@ body.scrolled .header--navbar {
 }
 
 .header--navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+body.scrolled .header--navbar .navbar-toggle .icon-bar {
     background-color: #303030;
 }
 
@@ -740,9 +772,14 @@ body.scrolled .header--navbar {
     bottom: 8px;
     width: 0;
     height: 2px;
-    background-color: #303030;
+    background-color: #fff;
     -webkit-transition: width .25s ease-in-out;
             transition: width .25s ease-in-out;
+}
+
+
+body.scrolled .header--nav .nav li a:before {
+    background-color: #303030;
 }
 
 .header--nav .nav li a:hover:before,
@@ -841,7 +878,7 @@ body.scrolled .header--navbar {
     margin: 0;
     position: absolute;
     width: 100%;
-    top: 650%;
+    top: 850%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -865,8 +902,8 @@ body.scrolled .header--navbar {
 }
 
 .banner--content p {
-    margin-top: 20px;
-    font-size: 24px;
+    margin-top: 30px;
+    font-size: 22px;
     font-weight: 300;
 }
 
@@ -1034,15 +1071,7 @@ body.scrolled .header--navbar {
     line-height: 28px;
 }
 
-@media screen and (max-width: 768px) {
-  #services {
-    z-index: 10 !important; /* Ensure higher priority */
-    background-image: url('img/services-img/bg.jpg'); /* Mobile-specific image (if needed) */
-    background-size: cover;
-    background-position: center center;
-    height: auto; /* Adjust height for mobile */
-  }
-}
+
 
 /*------------------------------------*\
     6. GALLERY AREA
@@ -1079,6 +1108,15 @@ body.scrolled .header--navbar {
     color: #fff;
     background-color: #303030;
 }
+
+.gallery-filter-menu a:hover {
+    background-color: #000;
+}
+
+.gallery-filter-menu li:hover{
+    color: #000;
+}
+
 
 /* 6.2. GALLERY ITEM */
 .gallery-item {
@@ -1149,7 +1187,7 @@ body.scrolled .header--navbar {
     background: transparent;
     border: 1px solid #fff;
     font-weight: 500;
-    border-radius: 0;
+    border-radius: 2px;
     outline: 0;
     color: #fff;
     -webkit-transition: .25s;
@@ -1728,28 +1766,29 @@ body.scrolled .header--navbar {
 
 .contact--social li {
     display: inline-block;
-    margin-right: 5px;
+    margin: 0 3px ;
 }
 
 .contact--social li a {
     display: block;
-    width: 44px;
+    width: 40px;
     margin: 0 0 16px 0;
     padding: 4px;
-    color: #999999;
+    color: #ababab;
     border: none;
     border-radius: 35px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     -webkit-transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
             transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
 }
 
+
 .contact--social li a:hover,
 .contact--social li a:focus {
     color: #fff;
     border: none;
-    background: #999999;
+    background: rgba(106, 166, 250, 0.4);
 }
 
 /* 11.3. CONTACT SOCIAL */
@@ -1845,9 +1884,8 @@ body.scrolled .header--navbar {
     13. FOOTER AREA
 \*------------------------------------*/
 #footer {
-    padding: 25px 0;
-    color: #ccc;
-    background-color: #303030;
+    padding: 40px 0;
+    color: #fff;
     text-align: center;
 }
 
@@ -2084,6 +2122,11 @@ body.scrolled #backToTop {
 
 /* 17.2. TABLET */
 @media screen and (max-width: 991px) {
+    /* BANNER ITEM */
+    .typewrite {
+     
+    }
+
     /* HIRE ME MODAL */
     .hire-me--modal .attachment {
         padding-right: 15px;
