@@ -38,13 +38,42 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157444923-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-157444923-1');
+    <!-- ====Carousel Auto-Play==== -->
+    <script>
+      // Set up auto-play for the carousel
+      const myCarousel = document.querySelector('#myCarousel');
+
+      // Initialize the interval duration (e.g., 2000ms = 2 seconds)
+      const interval = 2000;
+
+      let carouselInterval = setInterval(() => {
+        $(myCarousel).carousel('next'); // Move to the next slide
+      }, interval);
+
+      // Pause auto-play on hover and resume when mouse leaves
+      myCarousel.addEventListener('mouseenter', () => {
+        clearInterval(carouselInterval); // Pause auto-play
+      });
+
+      myCarousel.addEventListener('mouseleave', () => {
+        carouselInterval = setInterval(() => {
+          $(myCarousel).carousel('next'); // Resume auto-play
+        }, interval);
+      });
+
+      // Ensure clicking the pagination buttons also updates the interval
+      const indicators = document.querySelectorAll('.carousel-indicators li');
+      indicators.forEach(indicator => {
+        indicator.addEventListener('click', () => {
+          clearInterval(carouselInterval); // Reset auto-play timer
+          carouselInterval = setInterval(() => {
+            $(myCarousel).carousel('next'); // Continue auto-play
+          }, interval);
+        });
+      });
     </script>
+
 
     <style>
         #myCarousel li{
@@ -80,9 +109,8 @@
                                 <li><a href="#ai2">Research</a></li>
                                 <li><a href="#ai3">Ideation</a></li>
                                 <li><a href="#ai4">Prototype</a></li>
-                                <li><a href="#ai5">Presentation</a></li>
-                                <li><a href="#ai6">Web Design</a></li>
-                                <li><a href="#ai7">Remarks</a></li>
+                                <li><a href="#ai5">Slides</a></li>
+                                <li><a href="#ai6">Website</a></li>
                             </ul>
                         </div>
         <!-- Side Nav End -->
