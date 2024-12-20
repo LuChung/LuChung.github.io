@@ -187,13 +187,13 @@ p:last-child {
 .side ul{
     list-style-type:none;
     font-size: 0.8em;
-    color: #8D959C;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .side a{
     float: right;
     display: block;
-    color: #8D959C;
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: .3em 0;
     text-decoration: none;
