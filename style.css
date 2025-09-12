@@ -129,6 +129,12 @@ body {
     color: #fff;
 }
 
+@media screen and (max-width: 991px) {
+#headerNav a {
+    color: #303030;
+    }
+}
+
 body.scrolled #headerNav a {
     color: #303030;
 }
@@ -544,6 +550,8 @@ body.scrolled .side a {
     
     }
 }
+
+
 
 @media screen and (max-width: 767px) {
     #modal-bg{
