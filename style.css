@@ -918,7 +918,14 @@ body.scrolled .header--nav .nav li a:before {
     font-weight: 500;
     font-size: 36px;
     text-transform: none;
+    line-height: 1.5em;
 }
+
+@media screen and (max-width: 991px) {
+.banner--content h2 {
+    font-size: 28px;
+    }
+}    
 
 .banner--content .thick {
     font-weight: 300;
@@ -928,6 +935,12 @@ body.scrolled .header--nav .nav li a:before {
     margin-top: 30px;
     font-size: 22px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 991px) {
+.banner--content p {
+    font-size: 20px;
+    }
 }
 
 .banner--content p a {
